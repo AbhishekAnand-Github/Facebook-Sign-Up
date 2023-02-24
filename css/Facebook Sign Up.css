@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header{
+    background-color: #3b5998;
+    width: 100%; 
+    padding: 15px 0px;  
+}
+
+font{
+    font-family: klavika-medium;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 200px;
+}
+
+#box{
+    float: right;
+}
+
+#emailBox{
+    float: left;
+    margin: 8px 10px 0px 0px;
+}
+
+.label{
+    color: white;
+}
+
+#passwordBox{
+    float: left;
+    margin: 6px 150px 0px 0px;
+}
+
+#passwordBox a{
+    text-decoration: none;
+    color: #aebfe2;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+#passwordBox a:hover{
+    text-decoration: underline;
+}
+
+button{
+    background-color: #4e71ba;
+    color: white;
+    border-color: #3b5998;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+
+#img_box{
+    width: 480px;
+    height: 320px;
+    margin: 60px 0px 0px 200px;
+    float: left;
+}
+
+#img_text{
+    width: 100%;
+    height: 80px;
+}
+
+#main_img img{
+    width: 100%;
+    height: calc(320px - 80px);
+    border-radius: 2px;
+}
+
+.input{
+    height: 20px;
+}
+
+#formBox{
+    margin: 20px 110px 0px 0px;
+    height: auto;
+    width: auto;
+    float: right;
+}
+
+#formBox #title{
+    color: #251a10;
+    font-family: klavika-medium;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#formBox #subtitle{
+    margin-left: 5px;
+    margin-top: -15px;
+    color: #251a10;
+    font-size: 20px;
+}
+
+
+#formBox .input{
+    height: 20px;
+    padding: 5px;
+    width: 200px;
+    float: left;
+}
+
+#formBox #Lname{
+    margin-left: 30px;
+}
+
+#formBox #mob-email{
+    margin-top: 20px;
+    width: 444px;
+}
+
+#formBox #password{
+    margin-top: 20px;
+    width: 444px;
+}
+
+#formBox h3{
+    color: #8b9298;
+    margin-top: 110px;
+}
+
+#qm{
+    margin: 7px 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#formBox #gendertxt{
+    margin-top: 15px;
+}
+
+#genderbox{
+    width: 100%;
+    height: 50px;
+}
+
+#genderbox input{
+   height: 15px;
+   width: 15px;
+}
+
+#genderbox .radiobtnmargin{
+   margin-left: 20px;
+ }
+
+#genderbox label{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 500px;
+ }
+
+ #genderbox img{
+    margin: 0px 0px -3px 10px;
+    height: 20px;
+    width: 20px;
+}
+
+#formBox p{
+    font-size: 14px;
+}
+
+#signup{
+    background-color: #74bc5f;
+    padding: 10px 10px;
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #599747;
+}
+
+#signup:hover{
+    cursor: pointer;
+}
+
+#footertxt{
+    margin-top: 20px;
+    font-size: 14px;
+}
